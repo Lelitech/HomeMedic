@@ -1,0 +1,68 @@
+﻿@page "/"
+@*div class="login-page">
+  <div class="form">
+    <form class="login-form">
+      <h2>Welcome to MY HOMEMEDIC</h2>
+      <p>Where your well-being is our top priority</p>
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <div class="options">
+        <a href="#">ADMIN</a>
+        <a href="#">DOCTOR</a>
+        <a href="#">PATIENT</a>
+      </div>
+    </form>
+    </div>
+    </div>*@
+
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <PageTitle>Homedic</PageTitle>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+
+<body>
+    <div class="container">
+       
+        <h3>Welcome to</h3>
+        <h1>MY HOMEMEDIC</h1>
+
+        <a href="/login" class="btn btn-primary">Login</a>
+
+       
+        <div class="slots">
+            <div class="slot">
+                <h3>Admin</h3>
+                <a href="/admin-signup" class="btn btn-primary">Sign Up</a>
+            </div>
+            <div class="slot">
+                <h3>Doctor</h3>
+                <a href="/doctor-signup" class="btn btn-primary">Sign Up</a>
+            </div>
+            <div class="slot">
+                <h3>Patient</h3>
+                <a href="/patient-signup" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+
+     
+      
+    </div>
+
+    @*<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
+</body>
+
+</html>
+
+
+@code {
+
+}

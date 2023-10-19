@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{12280D55-55C5-4269-899E-0C834C49DA9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{98B2C2E8-A226-4699-AA06-0D35AC7DED46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{80B7885A-3453-4941-A295-569776D2431C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeMedic", "..\HomeMedic\HomeMedic.csproj", "{436549A6-92DF-44F3-A4D5-9304CF7EA506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436549A6-92DF-44F3-A4D5-9304CF7EA506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436549A6-92DF-44F3-A4D5-9304CF7EA506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436549A6-92DF-44F3-A4D5-9304CF7EA506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436549A6-92DF-44F3-A4D5-9304CF7EA506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{436549A6-92DF-44F3-A4D5-9304CF7EA506} = {12280D55-55C5-4269-899E-0C834C49DA9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ACDC682-79B8-4D59-8CB1-FE66FE71AF37}
+	EndGlobalSection
+EndGlobal
